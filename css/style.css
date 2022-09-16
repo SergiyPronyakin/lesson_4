@@ -1,0 +1,128 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Black.woff2) format("woff2"), url(../fonts/Lato-Black.woff) format("woff");
+	font-display: swap;
+	font-weight: 900;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url(../fonts/Larsseit-Regular.woff2) format("woff2"), url(../fonts/Larsseit-Regular.woff) format(woff);
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url(../fonts/Larsseit-Medium.woff2) format(woff2), url(../fonts/Larsseit-Medium.woff) format(woff);
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url(../fonts/Larsseit-Bold.woff2) format(woff2), url(../fonts/Larsseit-Bold.woff) format(woff);
+	font-display: swap;
+	font-style: normal;
+}
+
+
+body{ 
+	font-family: "Lato";
+}
+.page-title h1 {
+	font-weight: 900;
+	font-size: 50px;
+}
+.navigation-list li {
+	color: #2f9e8f;
+	font-weight: 900;
+}
+.navigation-list span {
+	color: #a52a2a;
+	font-weight: 400;
+}
+span.one {
+	color: #271569;
+} 
+span.two {
+	color: #fa0000;
+} 
+span.three {
+	color: #9e00fa;
+} 
+.content-about-title {
+	color: #fa0000;
+	font-weight: 900;
+	font-family: "Larsseit";
+
+}
+.content-about-text {
+	color: #a52a2a;
+}
+.content-about-text span {
+	color: rgb(240, 127, 255);
+}
+.content-history-title {
+	color: #068d1dc4;
+	font-weight: 900;
+	font-family: "Larsseit";
+}
+.text-one {
+	color: #db14d1
+}
+.text-one span {
+	color: #0b8d8d;
+}
+.text-two span {
+	color: #a6db14
+}
+.content-models-title {
+	color: #fa00ed;
+	font-weight: 700;
+	font-family: "Larsseit";
+}
+.content-models-text-two {
+	color: #a6db14;
+}
+.content-models-text ol {
+	color:#a52a2a	
+}
+.footer-title {
+	color: #271569;
+	font-weight: 900;
+}
+.footer-text {
+	color: #9e00fa;
+}
+li.one {
+	color: #fa0000;
+}
+li.three {
+	color: #2f9e8f;
+}
+.begin {
+	color: #db9005c4;
+	font-weight: 900;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+/* Обнулення */
+/* звертаємось до всієї сторінки: прибираємо відступи */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+/* обнулюэмо пункти в списках. тепер вони не маркуватимуться */
+li {
+    list-style: none;
+}
+/* обнуляє посилання. наслідує посилання тексту */
+a {
+    color: inherit;
+}
+/* обнулюємо підкреслення в посиланні, тепере його не буде */
+a:link,
+a:visited {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+/* обнулюється їхній розмір та жирність */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+input, 
+button, 
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+}
+body {
+    line-height: 1;
+}
